@@ -1,0 +1,153 @@
+#属性强化可支持的最大等级，最高支持255级
+level:
+  #锋利
+  damage_all: 255
+  #耐久
+  durability: 255
+  #力量
+  power: 255
+  #弹射物保护
+  protect_projectile: 255
+  #保护
+  protect_environmental: 255
+books:
+  # 锋利
+  damage_all:
+    # 随机成功率、失败率
+    normal:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    # 99成功率
+    ninety_nine:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    zero:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+  # 保护
+  protection_environmental:
+    # 随机成功率、失败率
+    normal:
+      name: "保护强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化保护"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    # 99成功率
+    ninety_nine:
+      name: "保护强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化保护"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    zero:
+      name: "保护强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化保护"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+  # 弹射物保护
+  protection_projectile:
+    # 随机成功率、失败率
+    normal:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    # 99成功率
+    ninety_nine:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    zero:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+  # 耐久
+  durability:
+    # 随机成功率、失败率
+    normal:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    # 99成功率
+    ninety_nine:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    zero:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+  # 力量
+  power:
+    # 随机成功率、失败率
+    normal:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    # 99成功率
+    ninety_nine:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
+    zero:
+      name: "锋利强化书"
+      material: "book"
+      custom_model_data: 0
+      lore:
+        - "此强化书用于强化锋利"
+        - "成功率：{success}"
+        - "破碎率：{breakage}"
