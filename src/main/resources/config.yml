@@ -1,18 +1,22 @@
 #属性强化可支持的最大等级，最高支持255级
 level:
   #锋利
-  damage_all: 255
+  sharpness: 255
   #耐久
-  durability: 255
+  unbreaking: 255
   #力量
   power: 255
   #弹射物保护
-  protect_projectile: 255
+  projectile_protection: 255
   #保护
-  protect_environmental: 255
+  protection: 255
+protect:
+  projectile_per_level: 0.05
+  environmental_per_level: 0.05
+  debug_info: false
 books:
   # 锋利
-  damage_all:
+  sharpness:
     # 随机成功率、失败率
     normal:
       name: "锋利强化书"
@@ -40,7 +44,7 @@ books:
         - "成功率：{success}"
         - "破碎率：{breakage}"
   # 保护
-  protection_environmental:
+  protection:
     # 随机成功率、失败率
     normal:
       name: "保护强化书"
@@ -68,7 +72,7 @@ books:
         - "成功率：{success}"
         - "破碎率：{breakage}"
   # 弹射物保护
-  protection_projectile:
+  projectile_protection:
     # 随机成功率、失败率
     normal:
       name: "锋利强化书"
@@ -96,7 +100,7 @@ books:
         - "成功率：{success}"
         - "破碎率：{breakage}"
   # 耐久
-  durability:
+  unbreaking:
     # 随机成功率、失败率
     normal:
       name: "锋利强化书"
