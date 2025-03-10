@@ -2,3 +2,4 @@ success: '§a强化成功!'
 failed: '强化失败'
 broken: '§4强化失败，装备破碎!'
 max_level: '§b这个附魔属性已经满级!'
+predict_refresh: "今天的强化书成功率算法参数已刷新~"
